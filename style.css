@@ -1,0 +1,56 @@
+
+
+#ai{
+    background-image: url(/images/image-header-desktop.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    background-color:#1C1938;
+    background-blend-mode: screen;
+}
+.container{
+    height: 350px;
+    width: 850px ;
+}
+@media screen and (max-width: 800px) {
+    .imp{
+      flex-direction: column-reverse;
+      
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .imp2{
+      flex-direction: column;
+      
+      
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .imp3{
+      text-align:center;
+      
+      
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #ai{
+      background-image: url(/images/image-header-desktop.jpg);
+      
+      width: 100%;
+      height: 200px;
+      background-size: 100% 100%;
+    
+      
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .container{
+      width: 300px;
+      height: 800px;
+      
+    }
+  }
+  
+
+  
